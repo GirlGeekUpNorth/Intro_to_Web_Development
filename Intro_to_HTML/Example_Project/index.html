@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-gb">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,6 +48,9 @@
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
 
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+
                 <label for="games">Favorite Type of Cooperative Game:</label>
                 <select id="games" name="games">
                     <option value="board">Board Games</option>
@@ -56,8 +59,12 @@
                 </select>
 
                 <label for="comments">Tell us about your favorite games:</label>
-                <textarea id="comments" name="comments"></textarea>
+                <textarea id="comments" name="comments" placeholder="Comment here"></textarea>
+                
+                <label for="quantgame">How Many Games Would You Like?</label>
+                <input type="number" id="quantgame" name="number" min="1" max="45">
 
+                
                 <button type="submit">Sign Up</button>
             </fieldset>
         </form>
