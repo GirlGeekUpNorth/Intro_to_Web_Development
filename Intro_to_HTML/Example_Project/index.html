@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Website for a Cooperative Gaming Group with a quiz to determine which cooperative game you should play.">
+    <link rel="stylesheet" href="style.css">
     <title>Cooperative Gaming Clan</title>
 </head>
 <body>
@@ -12,32 +13,37 @@
         <h1>Welcome to the Cooperative Gaming Clan</h1>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="quiz.html">Quiz</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section>
+    <main class="container">
+        <section class="about">
             <h2>About Us</h2>
             <p>The Cooperative Gaming Clan is all about fostering teamwork and fun through cooperative board and video games. Join us to explore a world of collaborative gaming!</p>
         </section>
-        <section>
+        <section class="meetups">
             <h2>Gaming meetups</h2>
             <p>The Cooperative Gaming Clan meets in person once a month to play boardgames. We meet in the Shift Click Community Hub on the 3rd Wednesday of the month from 7pm to 11pm.</p>
             <p>Pizza and refrshments are provided, altough you are also welcome to bring your own!</p>
+        </section>
+        <section class="location">
             <h3>Where to find us:</h3>
             <p>Shift Click Community Hub<br>1 MadLab Street<br>Manchester<br>M1 2AZ</p>
         </section>
-        <section>
-            <img src="Images/board_game_1.jpg" alt="A group of people playing a board game." width="400px">
-            <img src="Images/board_game_2.jpg" alt="A group of people playing a board game." width="400px">
-            <img src="Images/board_game_3.jpg" alt="A group of people playing a board game." width="400px">
-            <img src="Images/board_game_4.jpg" alt="A group of people playing a board game." width="400px">
+        <section class="image1">
+            <img src="Images/board_game_1.jpg" alt="A group of people playing a board game." >
+        </section>
+        <section class="image2">
+            <img src="Images/board_game_2.jpg" alt="A group of people playing a board game." >
+        </section>
+        <section class="image3">
+            <img src="Images/board_game_3.jpg" alt="A group of people playing a board game." >
         </section>
        <!-- Sign-Up Form -->  
-       <section>
+       <section class="signup">
         <h2>Sign-Up Form</h2>
         <form action="submit_form.html" method="post">
             <fieldset>
@@ -61,16 +67,16 @@
                 <button type="submit">Sign Up</button>
             </fieldset>
         </form>
-    </section>      
-    </main>
-    <aside>
+    </section>
+    <aside class="aside">
         <p>Other Resources:</p>
         <ul>
             <li><a href="https://boardgamegeek.com/">BoardGameGeek</a></li>
             <li><a href="https://en.wikipedia.org/wiki/Cooperative_board_game">Cooperative Board Game Wikipedia</a></li>
             <li><a href="https://www.reddit.com/r/boardgames/">Board Games Reddit</a></li>
         </ul>
-    </aside>
+    </aside>      
+    </main>
     <footer>
         <p>&copy; 2025 Cooperative Gaming Clan</p>
     </footer>
