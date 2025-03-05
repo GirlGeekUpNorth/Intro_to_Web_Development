@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p {
+                color:blue;
+            }
+
+            /*This will target just the p tags that are DIRECT children of the article*/
+            article > p {
+                color: darkred;
+            }
+
+            /*This will target all the p elements in article*/
+            article p {
+                color: limegreen;
+            }
+
+            /*The text will turn orange because CSS prioritises the last option it got :)*/
+            p {
+                color:orange;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <main>
+            <p>CHILD OF MAIN</p>
+            <article>
+                <p>CHILD OF ARTICLE</p>
+                <section>
+                    <p>CHILD OF SECTION</p>
+                </section>
+                <p>CHILD OF ARTICLE </p>
+            </article>
+
+        </main>
+    </body>
+</html>
