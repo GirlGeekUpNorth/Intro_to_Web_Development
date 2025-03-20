@@ -1,0 +1,66 @@
+/*styling for mobile screens*/
+@media screen and (max-width: 600px) {
+    /*set up a grid layout*/
+    .container {
+        display: grid;
+        grid-template-columns:repeat(3, minmax(0, 1fr));
+        grid-gap: 20px;
+    }
+    
+    /*set images to the size of the container*/
+    img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .about {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+    
+    .meetups {
+        grid-column: 1 / span 3;
+        grid-row: 2;
+        background-color: lightsalmon;
+        padding: 5% 10%;
+    }
+    
+    .location {
+        grid-column: 1 / span 3;
+        grid-row: 3;
+    }
+    
+    .aside {
+        grid-column: 1 / span 3;
+        grid-row: 7;
+        font-size: 12px;    
+    }
+    
+    .aside ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .image1 {
+        grid-column: 1 /span 3;
+        grid-row: 4;
+    }
+    
+    .image2 {
+        grid-column: 1 / span 3;
+        grid-row: 5;
+    }
+    
+    .image3 {
+        grid-column: 1 / span 3;
+        grid-row: 6;
+    }
+    
+    .signup {
+        grid-column: 1 / span 
+        3;
+        grid-row: 8;
+    
+    }
+    }

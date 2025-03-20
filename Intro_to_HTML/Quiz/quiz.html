@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-gb">
+<head>
+<title>CodeUp Home Page</title>
+<link rel="icon" type="image/png" href="codeup_icon.png">
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="home page for codeup, a coding support group">
+<meta name="keywords" content="coding, group, learn to code, support">
+<script src="quiz.js"></script>
+</head>    
+<body>
+    <header class="header">
+        <img src="codeup_logo.png" alt="logo for codeup">
+        <h3 id="tagline">Free and Friendly Adult Coding Tuition</h3>
+    </header>
+    <nav class="nav">
+        <ul>
+            <li><a href="contact.html">Contact</a></li>  
+            <li><a href="quiz.html">Quiz</a></li>  
+            <li><a href="gallery.html">Image Gallery</a></li> 
+            <li><a href="index.html">Home Page</a></li>
+        </ul>
+    </nav>
+    <main class="grid-container">
+        <section class="quiz">
+            <form name="quiz">
+            <fieldset>
+                <legend>What is your favourite colour?</legend>
+                <input type="radio" name="colour" id="pink" value="pink">
+                <label for="pink">Pink</label>
+                <input type="radio" name="colour" id="yellow" value="yellow">
+                <label for="yellow">Yellow</label>
+                <input type="radio" name="colour" id="green" value="green">
+                <label for="green">Green</label>
+                <input type="radio" name="colour" id="black" value="black">
+                <label for="black">Black</label>
+            </fieldset>
+            <fieldset>
+                <legend>What is your favourite animal?</legend>
+                <input type="radio" name="animal" id="red-panda" value="red-panda">
+                <label for="red-panda">Red Panda</label>
+                <input type="radio" name="animal" id="giraffe" value="giraffe">
+                <label for="giraffe">Giraffe</label>
+                <input type="radio" name="animal" id="jaguar" value="jaguar">
+                <label for="jaguar">Jaguar</label>
+                <input type="radio" name="animal" id="gorilla" value="gorilla">
+                <label for="gorilla">Gorilla</label>
+            </fieldset>
+            <fieldset>
+                <legend>What is your favourite music genre?</legend>
+                <input type="radio" name="music" id="pop" value="pop">
+                <label for="pop">Pop</label>
+                <input type="radio" name="music" id="hip-hop" value="hip-hop">
+                <label for="hip-hop">Hip Hop</label>
+                <input type="radio" name="music" id="rock" value="rock">
+                <label for="rock">Rock</label>
+                <input type="radio" name="music" id="metal" value="metal">
+                <label for="metal">Metal</label>
+            </fieldset>
+            <fieldset>
+                <legend>What is your favourite thing to do in your spare time?</legend>
+                <input type="radio" name="hobby" id="read" value="read">
+                <label for="read">Read</label>
+                <input type="radio" name="hobby" id="music" value="music">
+                <label for="music">Listen to music</label>
+                <input type="radio" name="hobby" id="walk" value="walk">
+                <label for="walk">Go for a walk</label>
+                <input type="radio" name="hobby" id="exercise" value="exercise">
+                <label for="exercise">Exercise</label>
+            </fieldset>
+            <br>
+            <button type="button" onclick="checkAnswers()">Submit</button>
+        </form>
+        </section>
+        <aside class="sidebar">
+            <p>Links to online learning resources</p>
+                <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>
+                <br>
+                <a href="https://www.codecademy.com/student-center">Codecademy</a>
+            
+        </aside>
+    </main>
+    <footer>
+        <p>Copyright CodeUpUK 2023</p>
+    </footer>
+</div>
+</body>
+</html>

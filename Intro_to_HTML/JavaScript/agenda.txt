@@ -1,0 +1,13 @@
+Say hello to my little friend
+ES6
+let & const
+objects & methods
+math methods
+date methods
+string methods
+loops
+functions
+rock paper scissors (lizard spock)
+
+
+Create a function that takes a date of birth and returns the person's age

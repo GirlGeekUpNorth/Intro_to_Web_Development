@@ -1,0 +1,101 @@
+body {
+    background-color: lightgoldenrodyellow;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+/*styling a navigation bar from a bullet point list*/
+/*remove bullet points and margin from the list*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:burlywood;
+}
+
+/*style the list items as a horizontal navigation bar*/
+li {
+    float: left;
+}
+
+/*style the links in the navigation bar*/
+a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+/*style the links in the navigation bar when hovered over*/
+li a:hover {
+    background-color:coral;
+    color: white;
+}
+
+/*style the active link in the navigation bar*/
+.active {
+    background-color:coral;
+}
+
+/*set up a grid layout*/
+.container {
+    display: grid;
+    grid-template-columns:repeat(6, minmax(0, 1fr));
+    grid-gap: 20px;
+}
+
+/*set images to the size of the container*/
+img {
+    width: 100%;
+    height: auto;
+    padding: 30px 10px 20px 10px;
+}
+
+/*position items within the grid*/
+.about {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+}
+
+.image1 {
+    grid-column: 4 / span 2;
+    grid-row: 1;
+}
+
+.aside {
+    grid-column: 6 / span 1;
+    grid-row: 1 / span 4;
+    padding: 10px;
+    font-size: 10px;
+}
+
+.aside ul {
+    list-style-type: none;
+}
+
+.meetups {
+    grid-column: 3 / span 3;
+    grid-row: 2;
+}
+
+.image2 {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.location {
+    grid-column: 1 / span 3;
+    grid-row: 3;
+}
+
+.image3 {
+    grid-column: 4 / span 2;
+    grid-row: 3;
+}
+
+.signup {
+    grid-column: 1 /span 6
+}

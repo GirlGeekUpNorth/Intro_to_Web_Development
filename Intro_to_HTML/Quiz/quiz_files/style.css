@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:blanchedalmond;
+    font-size:16px;
+    padding-left:20%;
+    padding-right:20%
+    } 
+h1 {
+font-size:2em;
+   }
+h2 {
+        font-size:1.5em;
+   }
+h3 {
+    font-size:1.2em;
+   }
+.important {
+    color:darkred;
+    background-color: white;
+    border-style:solid;
+    border-width:2px;
+    border-color:black;
+    border-radius:5px;
+    font-size:1.3em;
+    margin:20px;
+    padding:20px;
+   }
+#menu {
+    background-color: darksalmon;
+    overflow:hidden;
+    list-style-type: none;
+} 
+.menu-item {
+    float:right;
+    border-left: solid;
+    border-color: white;
+}
+.menu-item a {
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.menu-item a:hover {
+    background-color: black;
+}
+#active {
+    background-color: darkseagreen;
+}
+.container {
+    background-color: darksalmon;
+    padding: 20px;
+    padding-top: 5px;
+    margin:10px;
+    overflow:auto;
+}
+#imageRight {
+    float:right;
+    padding:10px;
+    margin-left:20px;
+    border-style: solid;
+    background-color: white;
+}
+#imageLeft {
+    float:left;
+    padding:10px;
+    margin-right:20px;
+    border-style: solid;
+    background-color: white;
+}
+.flex-container {
+    background-color: darkseagreen;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    margin-left:5%;
+    margin-right:5%;
+    padding:10px;
+    justify-content:space-around;
+}
+.image {
+    padding:10px;
+    border-style:solid;
+    margin:20px;
+    background-color:white;
+}
+#quiz {
+    background-color: white;
+    padding: 25%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
