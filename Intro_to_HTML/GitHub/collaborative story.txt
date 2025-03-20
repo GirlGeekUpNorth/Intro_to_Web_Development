@@ -1,0 +1,40 @@
+# Write a Collaborative Story
+
+This is a practical task designed to give you some practice of working collaboratively on GitHub. You will need to do this live and in pairs. 
+
+First, clone [this repository](https://github.com/GirlGeekUpNorth/collaborative-stories.git) from GitHub on GitHub Desktop (remember to switch to the URL tab when cloning). You will need write access to this repository for this task to work. You should have received an invite to join Shift-Click-Intro-to-GitHub after submitting your profile link.
+
+## Creating your story file
+
+You will then need to decide who will go first in your pair. The first person will need to create your story file:
+
+1. From the cloned repository in GitHub Desktop, create a branch to work on. While this is not necessary (you could just edit and commit to main), it is good practice to get used to branching when working on the same repository as other people.
+2. Publish your branch to GitHub.
+3. Open the repository in VS code.
+4. Create a file for your story, e.g. [A-Capybara-Story.md] (You could do this as a Markdown or simple Text file). Once the file has been created, it’s just a case of adding a line to the story in the file.
+5. Commit your changes to the current branch.
+6. Push your changes to origin.
+7. Preview the pull request.
+8. Create the pull request - remember this will take you to GitHub.
+9. Merge the pull request.
+10. Delete the branch.
+11. Commit the merge.
+12. In GitHub Desktop, change the current working branch to main and fetch the origin to pull through the updates to main. 
+
+## Writing your story
+
+Now the story file has been created, you can take turns editing the file by following this process:
+
+1. In GitHub Desktop, change the current working branch to main and fetch the origin to pull through the updates to main. We do this before editing each time to make sure we’re working from the most up to date version of the repository.
+2. Create a branch to work on.
+3. Publish the branch to GitHub.
+4. Open the repository in VS Code.
+5. Edit the story file.
+6. Commit your changes to the current branch.
+7. Push your changes to origin.
+8. Preview the pull request.
+9. Create the pull request - remember this will take you to GitHub. 
+10. Merge the pull request. 
+11. Delete the branch.
+12. Commit the merge.
+13. You can then hand over to your partner who will start the process again from no. 1.
