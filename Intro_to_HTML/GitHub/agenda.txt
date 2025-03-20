@@ -1,3 +1,8 @@
 Setting up a GitHub account
 Download GitHub Desktop
 GitHub Terminology
+Creating a repository & cloning a repository
+README files & Markdown syntax
+Branches
+Committing changes
+Pull requests
